@@ -8,7 +8,7 @@ public class Calculations {
         int second = input.nextInt();
         System.out.println(first+"+"+second+"="+(first+second));
         System.out.println(first+"x"+second+"="+(first*second));
-        System.out.println(first+"^"+second+"="+(Math.pow(first, second)));
+        System.out.println(first+"^2="+(Math.pow(first, 2)));
 
         Scanner input_2 = new Scanner(System.in);
         System.out.println("Enter your first name: ");
